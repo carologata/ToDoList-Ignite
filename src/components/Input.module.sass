@@ -1,0 +1,101 @@
+.input
+  width: 100%
+  display: flex
+  justify-content: center
+  gap: 0.8rem
+
+  margin-top: -2.7rem
+  margin-bottom: 6.4rem
+
+  input
+    flex: 1
+    font-size: 1.6rem
+    line-height: 140%
+
+    color: var(--gray300)
+
+    padding: 1.6rem
+
+    background: var(--gray500)
+    border: 1px solid var(--gray700)
+    border-radius: 8px
+
+    overflow: hidden
+
+  button
+    display: flex
+    justify-content: center
+    gap: 0.8rem
+    align-items: center
+
+    font-weight: 700
+    font-size: 1.4rem
+    color: var(--gray100)
+
+    padding: 1.6rem
+
+    background: var(--blue-dark)
+    border-radius: 8px
+    border: none
+
+    cursor: pointer
+
+    &:hover
+      background: var(--blue)
+
+    &:disabled
+      background: var(--gray400)
+
+    &:disabled:hover
+      background: var(--gray400)
+
+.status
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+  padding-bottom: 2.4rem
+
+  margin-bottom: 2.4rem
+
+  .created
+    display: flex
+    justify-content: center
+    gap: 0.8rem
+    align-items: center
+
+    font-weight: 700
+    font-size: 1.4rem
+    line-height: 1.7rem
+    color: var(--blue)
+
+    .createdCount
+      font-weight: 700
+      font-size: 1.2
+      line-height: 1.5
+      color: var(--gray200)
+
+      padding: 0.2rem 0.8rem
+      border-radius: 999px
+      background: var(--gray400)
+
+  .finished
+    display: flex
+    justify-content: center
+    gap: 0.8rem
+    align-items: center
+
+    font-weight: 700
+    font-size: 1.4rem
+    line-height: 1.7rem
+    color: var(--purple)
+
+    .finishedCount
+      font-weight: 700
+      font-size: 1.2
+      line-height: 1.5
+      color: var(--gray200)
+
+      padding: 0.2rem 0.8rem
+      border-radius: 999px
+      background: var(--gray400)

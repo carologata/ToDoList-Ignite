@@ -1,0 +1,72 @@
+
+.task
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  padding: 1.6rem
+
+  background: var(--gray500)
+  border: 1px solid var(--gray400)
+  border-radius: 8px
+
+  margin-bottom: 1.2rem
+
+  .container
+    display: flex
+
+    .option
+      line-height: 0.5
+      color: var(--blue)
+
+      border: none
+      border-radius: 999px
+      background: none
+
+      margin-right: 1.2rem
+
+      cursor: pointer
+
+      &:hover
+        color: var(--blue-dark)
+
+    .done
+      line-height: 1
+      color: var(--purple-dark)
+
+      border: none
+      background: none
+
+      margin-right: 1.2rem
+
+      cursor: pointer
+
+      &:hover
+        color: var(--purple)
+
+    .content
+      font-size: 1.4rem
+      color: var(--gray100)
+
+      max-width: 58rem
+      overflow: auto
+
+    .lineContent
+      font-size: 1.4rem
+      color: var(--gray300)
+
+      text-decoration: line-through
+
+  .delete
+    line-height: 1
+    color: var(--gray300)
+
+    background: none
+    border: none
+    border-radius: 4px
+    padding: 0.5rem
+
+    cursor: pointer
+
+    &:hover
+      color: var(--danger)
+      background: var(--gray-400)
