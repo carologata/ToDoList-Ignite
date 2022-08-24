@@ -37,6 +37,9 @@ npm run dev
 
 > <h3>Layout</h3>
 
-![Todolist1](https://user-images.githubusercontent.com/105884639/186494474-6b50492f-3aff-4a5e-98a3-8fafc409d725.PNG)
-</br>
 ![Todolist2](https://user-images.githubusercontent.com/105884639/186494933-39b9ec97-714f-4f77-a9cf-d49496968fee.PNG)
+</br>
+</br>
+![Todolist1](https://user-images.githubusercontent.com/105884639/186494474-6b50492f-3aff-4a5e-98a3-8fafc409d725.PNG)
+
+
